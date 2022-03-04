@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/sample-pattern.png");
+}
+
+nav {
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+li img {
+    float: left;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgba(41, 41, 41, 0.137);
+}
+
+img {
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.content {
+    padding: 32px;
+    background-color: white;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+h1 {
+    padding: 24px;
+    text-align: center;
+}
+
+h4 {
+    padding-top: 24px;
+}
+.content h4 {
+    color: blue;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    padding-top: 24px;
+}
+
+.footer h5{
+    margin-top: 8px;
+}
